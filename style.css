@@ -1,0 +1,83 @@
+*{
+     margin: 0px;
+     padding: 0px;
+}
+header{
+     position: relative;
+     width: 100%;
+     height:200px;
+     
+     
+}
+header img {
+     width: 100%;
+     height: 200px;
+     object-fit: cover;
+     position: absolute;
+     left: 0;
+     top: 0;
+     z-index: 99;
+     opacity: 0.7;
+     
+
+
+}
+header h1 {
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 100px;
+     font-weight: bold;
+     color: khaki;
+     z-index: 100;
+     position: relative;
+     text-align: center;
+     top: 30px;
+
+}
+
+.title {
+     background-color: #1a4558;
+     height:60px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 40px;
+     font-weight: bold;
+     color: white;
+     position: sticky;
+     top: 0;
+}
+.theimg {
+     float: left; 
+     height: 275px;
+     border: solid #cac3bd 7px;
+     border-radius: 12%;
+     
+}
+.text {
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 600;
+}
+.purcahse {
+     width: 290px;
+     height: 334px;
+     float: left;
+}
+.purcahse-button {
+     font-size: 26px;
+     margin-left: 43px;
+     margin-top:8px;
+     background-color: #28536b;
+     padding:5px;
+     border: 1px black solid;
+     border-radius: 9%;
+     width:200px;
+
+     
+}
+#frames {
+     background-color: #7299b3;
+
+}
+#paint{
+     background-color: #28536b;
+
+
+}
